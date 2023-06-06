@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+
+    <script>
+        function acendelampada() {
+            document.getElementById("luz").src="../Documents/Curso HTML CSS Prof Guanabara/Materiais[/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+        }
+
+        function apagaLampada() {
+            document.getElementById("luz").src="../Documents/Curso HTML CSS Prof Guanabara/Materiais[/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg";
+        }
+
+        function quebraLampada() {
+            document.getElementById("luz").src="../Documents/Curso HTML CSS Prof Guanabara/Materiais[/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-quebrada.jpg"   
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Acenda a Lampada</h1>
+    <img src="../Documents/Curso HTML CSS Prof Guanabara/Materiais[/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz" onmousemove="acendelampada()" onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+</body>
+</html>

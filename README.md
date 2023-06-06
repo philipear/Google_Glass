@@ -1,2 +1,5 @@
 # Google_Glass
- Projeto de site Google Glass do curso em video
+ 
+# Projeto criando durante o curso de HTML e CSS do site curso em video.
+
+## Tecnologias utilizadas
